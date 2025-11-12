@@ -44,8 +44,16 @@ if 50 <= number <= 100:
 else:
     print('Your number is not between 50 and 100')
 # Write an expression that checks if a number is NOT equal to 0 and greater than 10.
+number2= int(input("Enter a number:"))
+if number2 >= 10:
+    print("Your number is greater than 10")
+if number2 <= 0:
+    print("Your number is not greater than 10")
 
 # Use chained comparison to check if 3 < 4 < 5.
-
+a=3
+b=4
+c=5
+print(a < b < c)     
 # Challenge: Create a password rule using logical operators:
 
