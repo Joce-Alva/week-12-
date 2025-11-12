@@ -56,4 +56,8 @@ b=4
 c=5
 print(a < b < c)     
 # Challenge: Create a password rule using logical operators:
-
+password= input("Enter your password: ")
+if len(password)>= 10 and any (char.isdigit() for char in password):
+    print("Password is valid")
+else:
+    print("Password is invalid")
